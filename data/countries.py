@@ -193,3 +193,11 @@ countries = [
   'Zambia',
   'Zimbabwe',
 ];
+
+counries_containing_land = [];
+
+for i in countries:
+    if "land" in i:
+        countries.append(i)
+
+print(counries_containing_land)
